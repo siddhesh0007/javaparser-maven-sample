@@ -30,8 +30,15 @@
 
     <!-- This blob of configuration tells Maven to make the jar executable. You can run it with:
     mvn clean package
-      -->
+      
     java -jar target/javaparser-maven-sample-1.0-SNAPSHOT-shaded.jar
+         -->
+         
+   <artifactId>src/main</artifactId>
+  <packaging>Jar</packaging>
+  <name>src/main</name>
+  <description>src/main.</description> 
+         
    
     <build>
         <plugins>
