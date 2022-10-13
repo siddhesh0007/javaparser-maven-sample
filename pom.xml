@@ -35,7 +35,7 @@
          -->
          
    <artifactId>src/main</artifactId>
-  <packaging>Jar</packaging>
+  <packaging>war</packaging>
   <name>src/main</name>
   <description>src/main.</description> 
          
